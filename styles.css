@@ -1,0 +1,123 @@
+:root {
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --add-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --footer--background-color: #2f303a;
+  --header-frame-color: #ececec;
+  --main-frame-color: #eeeeee;
+  --bottoms-inactive-color: #f5f4fa;
+  --logo-black-color: #000000;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(main-background-color);
+  color: var(--first-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  color: var(--first-text-color);
+}
+
+/* Logo */
+.logo {
+  color: var(--logo-black-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo .web {
+  color: var(--accent-color);
+}
+
+.logo .studio {
+  color: var(--add-text-color);
+}
+
+/* Nav */
+.nav {
+  color: var(--first-text-color);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+
+.nav .current {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* Filter */
+.filter {
+  color: var(--first-text-color);
+  background-color: var(--bottoms-inactive-color);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.filter .link:focus,
+.filter .link:hover {
+  color: var(--add-text-color);
+  background-color: var(--accent-color);
+}
+
+/* Work examples */
+.examples h2 {
+  color: var(--first-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.examples p {
+  color: var(--second-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* Foter */
+footer {
+  background-color: var(--footer--background-color);
+}
+
+address {
+  color: var(--add-text-color);
+  font-weight: normal;
+  font-style: inherit;
+  font-size: 14px;
+  line-height: 24px;
+}
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
