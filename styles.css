@@ -57,6 +57,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.nav .link {
+  color: inherit;
+}
 
 .nav .link:hover,
 .nav .link:focus,
