@@ -13,8 +13,8 @@
 }
 /* Common */
 body {
-  background-color: var(--main-background-color);
   color: var(--first-text-color);
+  background-color: var(--main-background-color);
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -164,15 +164,15 @@ body {
 
 /* Portfolio main */
 /* Filter */
-.filter {
+.button {
+  color: var(--first-text-color);
   background-color: var(--bottoms-inactive-color);
 
+  font-family: Roboto, sans-serif;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-}
-.button {
-  text-align: center;
 }
 
 .filter .button:focus,
